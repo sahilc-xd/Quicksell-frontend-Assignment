@@ -1,0 +1,33 @@
+.usericon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    width: 32px;
+    background-color: #2e7d32;
+    color: #ffffff;
+    border-radius: 50%;
+    position: relative;
+    font-size: 14px;
+    font-weight: 500;
+    user-select: none;
+}
+
+.usericon-text {
+    line-height: 1;
+}
+
+.user-status {
+    position: absolute;
+    bottom: -2px;
+    right: -2px;
+    border: 2px solid #ffffff;
+    background-color: #dfe1e4;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+
+.user-status.available {
+    background-color: #fbc02d;
+}
